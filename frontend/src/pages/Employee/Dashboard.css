@@ -1,0 +1,129 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.page-header h1 {
+  color: #333;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.status-card {
+  text-align: center;
+}
+
+.status-content {
+  margin-top: 20px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.status-badge.present,
+.status-badge.checked-in {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-badge.absent,
+.status-badge.not-checked-in {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-badge.late {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-content p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  color: #666;
+  font-size: 14px;
+}
+
+.recent-list {
+  margin-top: 15px;
+}
+
+.recent-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.recent-item:last-child {
+  border-bottom: none;
+}
+
+.recent-date {
+  font-weight: 500;
+  color: #333;
+}
+
+.recent-time {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.badge-present {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.badge-absent {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.badge-late {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.badge-half-day {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+

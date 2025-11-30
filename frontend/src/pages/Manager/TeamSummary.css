@@ -1,0 +1,70 @@
+.summary-filters {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.summary-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.summary-card.success {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+}
+
+.summary-card.danger {
+  background: linear-gradient(135deg, #dc3545 0%, #e83e8c 100%);
+}
+
+.summary-card.warning {
+  background: linear-gradient(135deg, #ffc107 0%, #fd7e14 100%);
+}
+
+.summary-card.info {
+  background: linear-gradient(135deg, #17a2b8 0%, #6f42c1 100%);
+}
+
+.summary-card.primary {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+}
+
+.summary-label {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.summary-value-large {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.summary-details {
+  margin-top: 20px;
+}
+
+.summary-details p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.summary-details strong {
+  color: #007bff;
+}
+

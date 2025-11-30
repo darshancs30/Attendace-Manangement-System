@@ -1,0 +1,83 @@
+.attendance-card {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.attendance-header {
+  margin-bottom: 30px;
+}
+
+.attendance-header h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.status-indicator {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.status-indicator.present {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-indicator.absent {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-indicator.late {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.attendance-actions {
+  margin: 40px 0;
+}
+
+.btn-large {
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.completed-status {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.completed-status p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.total-hours {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 15px;
+}
+
+.current-status {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e7f3ff;
+  border-radius: 8px;
+}
+
+.current-status p {
+  margin: 5px 0;
+  color: #004085;
+}
+
+.info {
+  font-style: italic;
+  font-size: 14px;
+}
+
