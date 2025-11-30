@@ -264,21 +264,25 @@ After running the seed script, you can use these credentials:
 
 ### Employee Dashboard
 ![Employee Dashboard](screenshots/employee-dashboard.png)
-*Employee dashboard showing today's status, monthly stats, and recent attendance*
+*Employee dashboard showing today's status, monthly statistics (Present: 16, Absent: 2, Late: 2), and recent attendance history for the last 7 days with check-in/check-out times.*
 
 ### Manager Dashboard
 ![Manager Dashboard](screenshots/manager-dashboard.png)
-*Manager dashboard with team statistics, charts, and absent employees list*
+*Manager dashboard displaying total employees (5), today's attendance summary (Present: 1, Absent: 4, Late: 1), weekly attendance trend chart, department-wise attendance bar chart, list of absent employees, and department overview with employee counts.*
 
-### Attendance Calendar View
-![Calendar View](screenshots/calendar-view.png)
-*Calendar view with color-coded attendance status (Green: Present, Red: Absent, Yellow: Late, Orange: Half Day)*
+### Team Calendar View
+![Team Calendar View](screenshots/calendar-view.png)
+*Team calendar view showing monthly attendance calendar with color-coded status indicators. Green indicates all employees present, yellow indicates partial attendance, and gray indicates no data. Each day shows the date and attendance ratio (e.g., 5/5 means 5 out of 5 employees present).*
 
 ### Attendance Reports
-![Reports](screenshots/reports.png)
-*Manager reports page with filters and CSV export functionality*
+![Attendance Reports](screenshots/reports.png)
+*Attendance reports page with comprehensive filtering options (date range, employee ID, status, department), detailed attendance table showing employee information, check-in/check-out times, status badges, and CSV export functionality.*
 
-**Note**: To add screenshots, create a `screenshots` folder in the root directory and add your images there.
+> **Note**: Add your screenshot images to the `screenshots/` folder with these exact names:
+> - `employee-dashboard.png` - Employee Dashboard
+> - `manager-dashboard.png` - Manager Dashboard  
+> - `calendar-view.png` - Team Calendar View
+> - `reports.png` - Attendance Reports
 
 ## Documentation
 
